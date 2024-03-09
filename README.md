@@ -24,7 +24,6 @@ Program to implement the linear regression using gradient descent.
 Developed by: Shubhavi.M
 RegisterNumber: 212223040199
 */
-```
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
@@ -52,7 +51,7 @@ prediction =np.dot(np.append(1, new_Scaled), theta)
 prediction=prediction.reshape(-1,1)
 pre=scaler.inverse_transform(prediction)
 print(f"Predicted value: {pre}")
-
+```
 ## Output:
 
 ![Screenshot 2024-03-09 083517](https://github.com/Shubhavi17/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/150005085/22df2bfc-61cf-44b8-a4f6-4bc8ca4d2d14)
